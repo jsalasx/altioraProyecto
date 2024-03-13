@@ -2,8 +2,8 @@
 
 ## Tecnologías utilizadas
 
-- Quarkus - Java 17
-- Nextjs 14 - Node 20.11
+- Quarkus - Java 17 - Backend Arquitectura Hexagonal
+- Nextjs 14 - Node 20.11 
 - Mysql 8.3
 - Docker
 - DockerCompose
