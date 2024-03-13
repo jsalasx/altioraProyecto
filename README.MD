@@ -2,11 +2,11 @@
 
 ## Tecnologías utilizadas
 
-Quarkus - Java 17
-Nextjs 14 - Node 20.11
-Mysql 8.3
-Docker
-DockerCompose
+- Quarkus - Java 17
+- Nextjs 14 - Node 20.11
+- Mysql 8.3
+- Docker
+- DockerCompose
 
 ## Despligue
 
