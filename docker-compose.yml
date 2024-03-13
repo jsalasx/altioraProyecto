@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  quarkus-app:
+    build: ./altiora
+    ports:
+      - "8099:8080"
+    depends_on:
+      - mysql-db
+
+  mysql-db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 19950908
+      MYSQL_DATABASE: altiora_demo
+      MYSQL_USER: alejo
+      MYSQL_PASSWORD: 19950908
+    ports:
+      - "3399:3306"
+
+  nextjs-app:
+    build: ./pos
+    ports:
+      - "3099:3000"
+    depends_on:
+      - quarkus-app
