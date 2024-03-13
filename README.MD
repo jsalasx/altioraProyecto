@@ -17,14 +17,20 @@
 cd altiora
 ```
 - Limpiamos la carpeta target
-```./mvnw clean```
+```
+./mvnw clean
+```
 - Compilamos el proyecto
-```./mvnw package```
+```
+./mvnw package
+```
 
 
 ### Regresar al directorio raiz
 
-```cd ..```
+```
+cd ..
+```
 
 ### Ejecutar el docker-compose para levantar los servicios del proyecto
 ```
