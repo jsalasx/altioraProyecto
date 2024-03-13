@@ -12,19 +12,25 @@
 
 ### Compiliar el JAR de Quarkus
 
-cd altiora
-
-./mvnw clean
-
-./mvnw package
+- Ingresamos al directorio
+```cd altiora```
+- Limpiamos la carpeta target
+```./mvnw clean```
+- Compilamos el proyecto
+```./mvnw package```
 
 
 ### Regresar al directorio raiz
 
-cd ..
+```cd ..```
 
+### Ejecutar el docker-compose para levantar los servicios del proyecto
 docker-compose up
 
+# Nota Importante:
+- UrlFront: http://localhost:3099
+- UrlBack: http://localhost:8099
+- UrlDB: http://localhost:3399
 
 
 
